@@ -8,7 +8,6 @@ function Register() {
           <h2 className="form-heading">Registration Form</h2>
           <form>
             <div className="reg">
-              
               <label htmlFor="name">Name:</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" />
               <label htmlFor="UserName">UserName:</label>
@@ -71,7 +70,7 @@ function Some() {
   );
 }
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
@@ -82,4 +81,3 @@ function App() {
   );
 }
 
-export default App;
