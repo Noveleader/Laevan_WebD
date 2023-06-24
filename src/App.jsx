@@ -25,9 +25,9 @@ function Register() {
                 placeholder="Enter your password"
               />
               <div className="input-submit">
-                <Link to="/some">
+                
                   <button>Register</button>
-                </Link>
+                
               </div>
             </div>
           </form>
@@ -74,7 +74,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/some" element={<Some />} />
+        <Route path="/" element={<Some />} />
         <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
