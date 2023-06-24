@@ -2,44 +2,44 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-container {
-  flex: 1;
-  max-width: 40%;
+  width: 50%;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
 }
-.login-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-  z-index: -1;
-}
+
 .login-container {
-  width: 300px;
-  margin: 100px 50px 0 50%;
+  width: 25%;
   margin-top: 100px;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 h2 {
   text-align: center;
 }
+
 .input-submit {
   margin-bottom: 15px;
 }
+
 .input-submit label {
   display: block;
   font-weight: bold;
 }
+
 .input-submit input {
   width: 100%;
   padding: 5px;
@@ -47,19 +47,15 @@ h2 {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
-.input-submit input[type="submit-login"] {
-  background-color: #4CAF50;
-  color: #fff;
-  cursor: pointer;
-}
-.input-submit input[type="submit-login"]:hover {
-  background-color: #45a049;
-}
+
+.input-submit input[type="submit-login"],
 .input-submit input[type="submit-register"] {
   background-color: #4CAF50;
   color: #fff;
   cursor: pointer;
 }
+
+.input-submit input[type="submit-login"]:hover,
 .input-submit input[type="submit-register"]:hover {
   background-color: #45a049;
 }
