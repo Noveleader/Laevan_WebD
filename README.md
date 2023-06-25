@@ -27,7 +27,7 @@
 ![image](https://github.com/Noveleader/Laevan_WebD/assets/91677627/9efce0b6-4e8b-41eb-b26c-1fe32511ce69)
 
 <strong>Home Page</strong>
-
+![image](https://github.com/Noveleader/Laevan_WebD/assets/91677627/a7056cfb-6c73-441f-8379-30e68398dda5)
 
 <strong>Profile Page</strong>
 ![image](https://github.com/Noveleader/Laevan_WebD/assets/91677627/1c4856cf-336c-4d38-8974-1cf1039a60ee)
