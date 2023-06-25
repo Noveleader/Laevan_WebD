@@ -1,3 +1,21 @@
+<h1>To Run the Project </h1>
+<p>Download the project as a zip file and import it into youur VS code. Else you can use git clone and run the following command in the terminal. </p>
+
+```
+git clone https://github.com/Noveleader/Laevan_WebD
+```
+<p>Install the Dependencies</p>
+
+```
+npm install
+```
+
+<p>Start the local server</p>
+
+```
+npm start
+```
+
 <h1>Problem Statement</h1>
 
 <p>Many people in their day to day life needs some legal assistance but all they got is websites like quora or some other webistes to resolve their queries. </p>
