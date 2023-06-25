@@ -36,6 +36,12 @@ npm start
 ```home.jsx```
 <p>This is the home page of the app which connects the CHATGPT. The bot answers the user's queries related to law. This page also displays the recent posts from other users using the app. </p>
 
+```index.js```
+<p>It renders the root file of the project with App.jsx</p>
+
+```styles.css```
+<p>This file have all the styling properties of the project.</p>
+
 <h2>Web App Screenshots</h2>
 
 <strong>Login Page</strong>
