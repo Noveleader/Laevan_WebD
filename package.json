@@ -45,5 +45,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "crypto": "crypto-browserify"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2"
   }
 }

@@ -1,13 +1,11 @@
 import React from 'react';
-import { enc } from 'crypto-js';
-import dotenv from 'dotenv';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-dotenv.config();
+import * as dotenv from 'dotenv';
 
 // Import the functions you need from the SDKs you need
 
@@ -20,7 +18,7 @@ const firebaseConfig = {
   apiKey: process.env.API_KEY,
   authDomain: process.env.AUTH_DOMAIN,
   databaseURL: process.env.DATABASE_URL,
-  projectId: process.env.PROJECT_ID,
+  projectId: process.env.PROJECT_IDD,
   storageBucket: process.env.STORAGE_BUCKET,
   messagingSenderId: process.env.MESSAGING_SENDER_ID,
   appId: process.env.APP_ID,
