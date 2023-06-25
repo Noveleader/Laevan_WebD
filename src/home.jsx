@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import dotenv from 'dotenv';
+import env from "react-dotenv";
 import './home.css';
-dotenv.config();
 
 
 function Home() {
@@ -27,7 +26,7 @@ function Home() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+        'Authorization': `Bearer ${env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
         messages: [
